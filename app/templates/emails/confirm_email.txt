@@ -1,0 +1,11 @@
+Dear {{ user }},
+
+Please confirm your email by clicking on the link below:
+
+{{ url_for('confirm_email', token=token, _external=True) }}
+
+If you have not requested a password reset simply ignore this message.
+
+Sincerely,
+
+The Certify Team
