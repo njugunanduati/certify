@@ -37,3 +37,11 @@ flask db migrate
 # 4)Run the application
 flask run
 
+
+# NB Add this in the course table
+
+INSERT INTO course
+    (id, name, description)
+VALUES
+    (1, 'Bsc Computer Science', 'Bachelor of Science in Computer Science');
+
